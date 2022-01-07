@@ -1,4 +1,4 @@
-## Welcome to the DrugOOD project!
+## DrugOOD: Out-of-Distribution (OOD) Dataset Curator and Benchmark for AI Aided Drug Discovery
 
 You can use the [editor on GitHub](https://github.com/DrugOOD/DrugOOD/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
@@ -7,36 +7,15 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 ### Project description
 
+### Paper and Document
 
 
 ### Code and Data 
 
 
-### Paper and Manuscript
-
-
-
 ### Contact 
 
 
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
