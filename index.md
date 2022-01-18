@@ -1,28 +1,26 @@
-## DrugOOD: Out-of-Distribution (OOD) Dataset Curator and Benchmark for AI Aided Drug Discovery
-
-You can use the [editor on GitHub](https://github.com/DrugOOD/DrugOOD/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## DrugOOD: OOD Dataset Curator and Benchmark for AI Aided Drug Discovery
 
 
-### Project description
+### Project Description
 
-### Paper and Document
+AI-aided drug discovery (AIDD) is gaining increasingly more popularity due to its promise  of making the hunt for new pharmaceuticals quicker, cheaper and more effective. Though being extensively applied in various areas, such as ADMET prediction, virtual screening,  protein folding  and generative chemistry, little has been explored in terms of the out-of-distribution (OOD) learning problem with `noise`, which is inevitable in real world AIDD applications. 
 
 
-### Code and Data 
+In this work, we present DrugOOD, a systematic OOD dataset curator and benchmark for AI-aided drug discovery,  which comes with an open-source Python package that fully automates the data curation and OOD benchmarking processes.   
+We focus on one of the most crucial problems in AIDD: drug target binding affinity prediction, which involves both macro-molecule (protein target) and small-molecule (drug compound). In contrast to only providing fixed datasets,  DrugOOD offers automated dataset curator with user-friendly customization scripts,  rich domain annotations aligned with bio-chemistry knowledge, realistic noise annotations and rigorous benchmarking of state-of-the-art OOD algorithms. Since the molecular data is often modeled as irregular graphs using graph neural network (GNN) backbones, DrugOOD also serves as an important testbed for `graph OOD learning` problems.  
+From extensive empirical studies, we  observe significant performance gap between  in-distribution and out-of-distribution experiments, which calls for attention for developing better schemes that allow for OOD generalization for AI-aided drug discovery.  
+
+
+
+### Code and Document 
+
+
+### Paper 
 
 
 ### Contact 
 
 
+Email: DrugAIOOD@gmail.com
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DrugOOD/DrugOOD/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
