@@ -9,7 +9,6 @@ AI-aided drug discovery (AIDD) is gaining increasingly more popularity due to it
 In this work, we present DrugOOD, a systematic OOD dataset curator and benchmark for AI-aided drug discovery,  which comes with an open-source Python package that fully automates the data curation and OOD benchmarking processes.  We focus on one of the most crucial problems in AIDD: drug target binding affinity prediction, which involves both macro-molecule (protein target) and small-molecule (drug compound). In contrast to only providing fixed datasets,  DrugOOD offers automated dataset curator with user-friendly customization scripts,  rich domain annotations aligned with bio-chemistry knowledge, realistic noise annotations and rigorous benchmarking of state-of-the-art OOD algorithms. Since the molecular data is often modeled as irregular graphs using graph neural network (GNN) backbones, DrugOOD also serves as an important testbed for `graph OOD learning` problems.  From extensive empirical studies, we  observe significant performance gap between  in-distribution and out-of-distribution experiments, which calls for attention for developing better schemes that allow for OOD generalization for AI-aided drug discovery.  
 
 
-
 ### Code and Document
 
 
@@ -18,4 +17,4 @@ In this work, we present DrugOOD, a systematic OOD dataset curator and benchmark
 
 ### Contact
 
-Email: DrugAIOOD@gmail.com
+Email: <DrugAIOOD@gmail.com>
