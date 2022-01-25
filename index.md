@@ -17,6 +17,8 @@ To be released
 
 ### Paper
 
+Preprint: <https://arxiv.org/abs/2201.09637>
+
 ### Contact
 
 Email: <DrugAIOOD@gmail.com>
