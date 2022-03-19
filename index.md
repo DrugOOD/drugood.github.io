@@ -15,7 +15,7 @@ In this work, we present DrugOOD, a systematic OOD dataset curator and benchmark
 
 ![overview_dataset](figures/overview_dataset.png)
 
-DrugOOD provides large-scale, realistic, and diverse datasets for Drug AI OOD research. Specifically, DrugOOD focuses on the problem of domain generalization, in which we train and test the model on disjoint domains, e.g., molecules in a new assay environment. 
+DrugOOD provides large-scale, realistic, and diverse datasets for Drug AI OOD research. Specifically, DrugOOD focuses on the problem of domain generalization, in which we train and test the model on disjoint domains, e.g., molecules in a new assay environment.
 Top Left: Based on the ChEMBL database, we present an automated dataset curator for customizing OOD datasets flexibly.
 Top Right: DrugOOD releases realized exemplar datasets spanning different domain shifts. In each dataset, each data sample $(x, y, d)$ is associated with a domain annotation d. We use the background colours <span style="color:lightblue;">lightblue</span> and   <span style="color:lightgreen;">green</span>  to denote the seen data and unseen test data.
 Bottom: Examples with different noise levels from the DrugOOD dataset. DrugOOD identifies and annotates three noise levels (left to right: core, refined, general) according to several criteria, and as the level increases,  data volume increases and  more noisy sources are involved.
@@ -31,11 +31,11 @@ DrugOOD conducts a comprehensive benchmark for developing and evaluating OOD gen
 
 
 ### Experiments
-
-Baseline results on  the dataset drugood-lbap-core-ic50-assay for the six OOD algorithm is shown below.
 In-distribution (ID) results correspond to the train-to-train setting. Parentheses show standard deviation across 3 replicates.
 
-Baseline results on  dataset drugood-lbap-core-ic50-assay for the six OOD algorithm is shown below:
+<hr />
+
+Baseline results on  the dataset drugood-lbap-core-ic50-assay for the six OOD algorithms are shown below.
 
  | Algos | Val(ID)-ACC | Val(ID)-AUC | Val(OOD)-ACC |Val(OOD)-AUC | Test(ID)-ACC |Test(ID)-AUC| Test(OOD)-ACC | Test(OOD)-AUC|
  | ------ | ------     | --------- |    ----------- | ------------| -------------|------------|---------------|---------------|
@@ -46,8 +46,10 @@ Baseline results on  dataset drugood-lbap-core-ic50-assay for the six OOD algori
 |Mixup|88.80 (0.52) |89.01 (2.06) |88.76 (1.92) |69.14 (0.56) |89.01 (0.43) |88.95 (2.17 |81.65 (1.06) |71.34 (0.41)
 |GroupDro|88.80 (0.15) |89.42 (0.43) |89.81 (0.41) |70.34 (0.91) |88.96 (0.15) |89.24 (0.82 |82.62 (0.23) |71.54 (0.46)
 
-Baseline results on  dataset drugood-lbap-core-ic50-scaffold for the six OOD algorithm is shown below:
- 
+
+<hr />
+Baseline results on  dataset drugood-lbap-core-ic50-scaffold for the six OOD algorithms:
+
 | Algos | Val(ID)-ACC | Val(ID)-AUC | Val(OOD)-ACC |Val(OOD)-AUC | Test(ID)-ACC |Test(ID)-AUC| Test(OOD)-ACC | Test(OOD)-AUC|
  | ------ | ------     | --------- |    ----------- | ------------| -------------|------------|---------------|---------------|
 |ERM|97.04 (0.13) |94.84 (0.60) |85.11 (0.40) |78.96 (0.67) |90.51 (0.14) |87.15 (0.48 |76.33 (0.64) |69.54 (0.52)
@@ -57,7 +59,9 @@ Baseline results on  dataset drugood-lbap-core-ic50-scaffold for the six OOD alg
 |Mixup|97.19 (0.08) |95.51 (0.44) |85.55 (0.08) |79.42 (0.62) |90.74 (0.11) |87.35 (0.33 |77.18 (0.19) |69.29 (0.24)
 |GroupDro|96.02 (0.12) |78.67 (2.75) |85.01 (0.64) |74.57 (0.60) |89.87 (0.18) |78.32 (1.09 |76.18 (0.86) |66.67 (0.67)
 
-Baseline results on  dataset drugood-lbap-core-ic50-size for the six OOD algorithm is shown below:
+<hr />
+
+Baseline results on  dataset drugood-lbap-core-ic50-size for the six OOD algorithms:
 
 | Algos | Val(ID)-ACC | Val(ID)-AUC | Val(OOD)-ACC |Val(OOD)-AUC | Test(ID)-ACC |Test(ID)-AUC| Test(OOD)-ACC | Test(OOD)-AUC|
  | ------ | ------     | --------- |    ----------- | ------------| -------------|------------|---------------|---------------|
@@ -72,7 +76,7 @@ Baseline results on  dataset drugood-lbap-core-ic50-size for the six OOD algorit
 
 ### Code and Document
 
-To be released.
+Code:   <https://github.com/tencent-ailab/DrugOOD>
 
 ### Paper
 
@@ -81,3 +85,5 @@ Preprint: <https://arxiv.org/abs/2201.09637>
 ### Contact
 
 Email: <DrugAIOOD@gmail.com>
+
+<hr />
