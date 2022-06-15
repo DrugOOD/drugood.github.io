@@ -74,9 +74,11 @@ Baseline results on  dataset drugood-lbap-core-ic50-size for the six OOD algorit
 
 
 
-### Code and Document
+### Code and Datasets
 
-Code:   <https://github.com/tencent-ailab/DrugOOD>
+- Code:   <https://github.com/tencent-ailab/DrugOOD>
+
+- 96 realized datasets: <https://drive.google.com/drive/folders/19EAVkhJg0AgMx7X-bXGOhD4ENLfxJMWC>
 
 ### Paper
 
