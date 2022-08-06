@@ -10,6 +10,10 @@ In this work, we present DrugOOD, a systematic OOD dataset curator and benchmark
 
 `Keywords`: AI-aided drug discovery (AIDD), graph OOD learning, OOD generalization, learning under noise, binding affinity prediction, drug-target interaction, virtual screening
 
+### News
+
+- July 2022:  DrugOOD is presented at the ["DataPerf Workshop at ICML 2022"](https://sites.google.com/view/dataperf2022/home?authuser=0)
+
 
 ### Dataset Curator
 
