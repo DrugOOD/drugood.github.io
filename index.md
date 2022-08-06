@@ -1,6 +1,12 @@
 ## DrugOOD: OOD Dataset Curator and Benchmark for AI-aided Drug Discovery
 
 
+### News
+
+- July 2022:  DrugOOD is presented at the ["DataPerf Workshop at ICML 2022"](https://sites.google.com/view/dataperf2022/home?authuser=0)
+
+
+
 ### Project Description
 
 AI-aided drug discovery (AIDD) is gaining increasing popularity due to its promise of  making  the  search  for  new   pharmaceuticals  quicker,  cheaper  and  more  efficient.  Inspite of its extensive use in many fields,  such as ADMET prediction,  virtual screening, protein folding and generative chemistry, little has been explored in terms of the out-of-distribution (OOD) learning problem with _noise_, which is inevitable in real world AIDD applications.
@@ -10,9 +16,6 @@ In this work, we present DrugOOD, a systematic OOD dataset curator and benchmark
 
 `Keywords`: AI-aided drug discovery (AIDD), graph OOD learning, OOD generalization, learning under noise, binding affinity prediction, drug-target interaction, virtual screening
 
-### News
-
-- July 2022:  DrugOOD is presented at the ["DataPerf Workshop at ICML 2022"](https://sites.google.com/view/dataperf2022/home?authuser=0)
 
 
 ### Dataset Curator
