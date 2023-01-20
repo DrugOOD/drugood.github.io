@@ -3,6 +3,10 @@
 
 ### News
 
+- 2023: DrugOOD will be presented at AAAI 2023.  
+
+- 2022:  We have released 96 realized exemplar datasets based on the DrugOOD curator. They can be downloaded from <https://drive.google.com/drive/folders/19EAVkhJg0AgMx7X-bXGOhD4ENLfxJMWC>
+
 - July 2022:  DrugOOD is presented at the ["DataPerf Workshop at ICML 2022"](https://sites.google.com/view/dataperf2022/home?authuser=0)
 
 
